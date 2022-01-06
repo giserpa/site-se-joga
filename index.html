@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Projeto Final Reprograma">
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<title>Projeto SE JOGA!!!</title>
+
+	<!-- LINKS Bootstrap CSS / JS-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!--Link JS-->
+	<script src="js/stylo.js"></script>
+
+	<!-- Estilo CSS -->
+	<link href="css/estilo.css" rel="stylesheet">
+	<!--fonts -->
+	<link href="Source_Sans_Pro/SourceSansPro-Regular.ttf" rel="stylesheet">
+	<link rel="stylesheet" href="Montserrat/Montserrat-Regular.ttf">
+</head>
+
+<body>
+	<!-- Navegação -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<!-- RESPONSIVIDADE -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="#">SE JOGA!!!</a>
+			</div>
+			<!-- MENU-->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-left">
+					<li><img src="img/icon4.png">
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#home">Home</a>
+					</li>
+					<li>
+						<a href="#projeto">O Projeto</a>
+					</li>
+					<li>
+						<a href="#formulario">Colabore</a>
+					</li>
+					<li>
+						<a href="#fica">Fica a dica</a>
+					</li>
+					<li>
+						<a href="#contato">Contato</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /FIM NAVEGAÇÃO-->
+		</div>
+		<!-- /FIM .CONTAINER -->
+	</nav>
+	<section id="home">
+		<h1> Procurando lugares diversificados para curtir? <br> Então <span class="se">SE JOGA</span> e venha conhecer nosso projeto!!!</h1>
+	</section>
+	<!-- CARROSSEL -->
+
+	<header id="myCarousel" class="carousel slide">
+
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<!-- IMAGEM 1 -->
+				<div class="foto" style="background-image:url('img/s.png');"></div>
+				<div class="carousel-caption">
+					<h2>Bares e Baladas</h2>
+				</div>
+			</div>
+			<div class="item">
+				<!-- IMAGEM 2  -->
+				<div class="foto" style="background-image:url('img/parada.jpg');"></div>
+				<div class="carousel-caption">
+					<h2>Eventos</h2>
+				</div>
+			</div>
+			<div class="item">
+				<!-- IMAGEM 3 -->
+				<div class="foto" style="background-image:url('img/restaurant.jpeg');"></div>
+				<div class="carousel-caption">
+					<h2>Restaurantes</h2>
+				</div>
+			</div>
+		</div>
+		<!-- Controle Carrossel esquerda/direita -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="icon-prev"></span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="icon-next"></span>
+		</a>
+	</header>
+	<!--fim do carousel-->
+
+	<!--COMEÇO SECTION O PROJETO-->
+	<section id="projeto">
+		<div class="container">
+			<div class="row">
+				<h2 id="oprojeto" class="text-center text-uppercase">O Projeto</h2>
+				<hr>
+				<div class="descricaoprojeto">
+					<div class="col-md-4">
+						<img src="img/flag.jpg" id="fotoflag">
+					</div>
+					<div class="text-descr">
+						<div class="col-md-4">
+							<p>O projeto é fazer um site colaborativo voltado para o público LGBT, onde as pessoas possam dar dicas sobre lugares
+								onde foram e curtiram, de uma forma descontraída...
+							</p>
+							<p> A ideia é ajudar as pessoas à obterem mais informações sobre lugares onde possam se divertir,informações de eventos,
+								bares e baladas através de dicas de outras pessoas que já foram naquele determinado local.</p>
+							<p>É uma forma de conhecer lugares bacanas,com ambiente agradável, onde você vai ser respeitado(a) e ter segurança.</p>
+						</div>
+					</div>
+
+					<div class="listas">
+						<div class="col-md-4">
+							<ul>
+								<li>Conteúdo LGBT/Friendly</li>
+								<li>Conheça a opinião das pessoas</li>
+								<li>Compartilhe suas dicas</li>
+								<li>Informações de Eventos</li>
+							</ul>
+							<img src="img/rainbow.jpeg" id="fotorainbow">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--FIM SECTION O PROEJTO-->
+
+	<!--COMEÇO SECTION colabore E FORMULARIO-->
+	<section id="formulario">
+		<center>
+			<div class="foto" style="background-image:url('img/hands3.jpg');">
+				<div class="container">
+					<div class="row">
+						<h2 id="deixa" class="text-center text-uppercase">colabore</h2>
+						<hr>
+						<div class="col-md-8 col-md-offset-2">
+							<p> Deixe sua dica! <br>Colabore conosco preenchendo o formulário abaixo...</p>
+							<p> Ajude o projeto a seguir em frente :-)</p>
+
+							<form>
+								<input  type="text" class="form-control" id="exampleInputName3" placeholder="Nome" required>
+								<input  type="text" class="form-control" id="exampleInputMail3" placeholder="E-mail" required>
+								<input  type="text" class="form-control" id="exampleInputAge3" placeholder="Idade">
+								<input  type="text" class="form-control" id="exampleInputlocal3" placeholder="Lugar que gostou." required>
+								<textarea class="form-control" rows="3" placeholder="Seu Comentário" required></textarea>
+								<select class="form-control">
+  							<option>Baladas/ Bares</option>
+  							<option>Eventos</option>
+  							<option>Parques</option>
+  							<option>Restaurantes</option>
+  							<option>Outros</option>
+							</select>
+								<button type="submit" class="btn btn-success" onclick="tks()">Enviar</button>
+								<button type="submit" class="btn btn-danger">Cancelar</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</center>
+	</section>
+
+	<!--FIM DA SECTION DEIXA E FORMULARIO-->
+
+	<!--COMEÇO DA SECTION FICA-->
+	<section id="fica">
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+					<h2> FICA A DICA</h2>
+					<hr>
+					<p> Veja as dicas que deixaram para você!!! </p>
+				</div>
+				<!--Inicio col-md-4-->
+				<div class="col-md-4">
+					<div class="dica1 text-center">
+						<div class="dica1-image">
+							<img src="img/ibira.jpg" alt="">
+						</div>
+
+						<h4 class="text-uppercase">
+							<a href="http://parqueibirapuera.org/" target="_blank">	Parque Ibirapuera (SP)</a>
+						</h4>
+						<div class="dica1-texto">
+							<p><i> "Gosto de ir no Parque Ibirapuera pa poder relaxar e passear com meu namorado,onde podemos conhecer pessoas de todos
+							os lugares e inclusive agir como um casal,sem que as pessoas nos vejam com olhar de nojo"</i></p>
+							<p> FELIPE CANEDO, 21 ANOS</p>
+						</div>
+
+					</div>
+				</div>
+				<!--Fim col-md-4-->
+
+				<!--Inicio col-md-4-->
+				<div class="col-md-4">
+					<div class="dica2 text-center">
+						<div class="dica1-image">
+							<img src="img/blitzhaus.png" alt="Blitz Haus club">
+						</div>
+						<h4 class="text-uppercase">
+							<a href="http://blitzhaus.com.br/" target="_blank">	Blitz Haus (SP)</a>
+						</h4>
+						<div class="dica2-texto">
+							<p><i> "Quando se trata de baladas,eu gosto de ir na Blitz Haus.O ambiente é acomodativo,funcionários são muitos educados e prestativos,os banheiros são unissex e com público na maioria jovem entre 18 e 30anos"</i></p>
+							<p> GABRIELA LEAL, 22 ANOS</p>
+						</div>
+					</div>
+				</div>
+				<!--Fim col-md-4-->
+
+				<!--Inicio col-md-4-->
+				<div class="col-md-4">
+					<div class="dica3 text-center">
+						<div class="dica1-image">
+							<img src="img/hothotclub.jpg" alt="hot hot club">
+						</div>
+						<h4 class="text-uppercase">
+							<a href="https://www.facebook.com/clubehothot/" target="_blank">Hot Hot Club (SP)</a>
+						</h4>
+						<div class="dica3-texto">
+							<p><i> "Eu gosto de ir na HOT HOT por causa da música,o público é muito receptivo e respeitoso com todos"</i></p>
+							<p> FELIPE CANEDO, 21 ANOS</p>
+						</div>
+					</div>
+				</div>
+
+				<!--Fim col-md-4-->
+			</div>
+		</div>
+	</section>
+	<!--FIMDA SECTION FICA-->
+
+	<!--COMEÇO DA SECTION CONTATO-->
+	<section id="contato">
+		<center>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h2> CONTATO</h2>
+						<hr>
+					</div>
+					<!--Inicio col-md-6-->
+					<div class="col-md-6">
+						<div class="formularioContact">
+							<p> Dúvidas,Sugestões ou Reclamações</p>
+							<form class="form">
+								<div class="form-group">
+									<label class="sr-only" for="exampleInputNome3">Nome</label>
+									<input type="text" class="form-control" id="exampleInputNome3" placeholder="Nome">
+								</div>
+								<div class="form-group">
+									<label class="sr-only" for="exampleInputPassword3">Email</label>
+									<input type="text" class="form-control" id="exampleInputEmail3" placeholder="Email">
+								</div>
+								<textarea class="form-control" rows="3" placeholder="Sua mensagem"></textarea>
+								<button type="submit" class="btn btn-primary" onclick="contact()">Enviar</button>
+							</form>
+
+						</div>
+					</div>
+					<!--fim col-6-->
+					<div class="col-md-6">
+						<div class="sobre">
+							<div class="sobre-image">
+								<img src="img/gih.jpg" alt="foto-gisele">
+							</div>
+
+							<h4 class="text-uppercase">
+								Gisele Sousa
+							</h4>
+							<div class="sobre-texto">
+								<p> Fundadora do projeto</p>
+								<a href="https://www.facebook.com/gi.santos04" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+
+								<a href="https://www.linkedin.com/in/gisele-aparecida-sousa" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/gika_san/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</center>
+	</section>
+	<!--FIM DA SECTION CONTATO-->
+	<footer>
+		<div class="fim">
+
+			<p>Gisele Sousa 2016 </p>
+
+		</div>
+	</footer>
+
+	<!--SCRIPT CARROUSEL-->
+	<script>
+    $('.carousel').carousel({
+        interval: 3000
+    })
+    </script>
+</body>
+
+</html>

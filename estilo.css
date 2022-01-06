@@ -1,0 +1,134 @@
+body {
+    margin-top: 45px;
+    height: 100%;
+    background-color: #dadaf1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color:#660066;
+}
+/*CSS MENU*/
+.navbar-inverse {
+    background-color:#660066;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:#f2e6ff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:yellow;
+}
+.navbar-inverse .navbar-brand {
+    color: #00e673;
+}
+.foto{
+    width: 100%;
+}
+/*Fim CSS MENU*/
+h1{
+    color:purple;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif
+    
+}
+h2{
+    font-family: 'Source Sans Pro Semi-bold', sans-serif;
+    color:purple;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+#fica{
+    background-color: white;
+}
+#projeto{
+    background-color: white;
+}
+.row{
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+.dica1-image img{
+    width: 60%;
+}
+.form-control{
+    margin:10px;
+    width: 60%;
+    border-color:darkblue;
+
+}
+.se{
+    color:#ff9933;
+}
+.sobre-image img {
+    width:40%;
+    border-radius: 50px;
+}
+.fim {
+    background-color:#330033;
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+
+#fotoflag{
+    
+    width:100%;
+    border:2px solid  #99ddff; 
+    padding:1px;
+    margin:auto;
+      
+}
+#fotorainbow{
+    width: 80%;
+}
+
+.text-descr{
+    text-align: justify;
+    padding: 10px 50px;
+
+    
+}
+
+.descricaoprojeto{
+    text-align: center;
+    padding: 50px;
+    font-size:18px;
+}
+
+
+html,
+body {
+    margin-top: 45px;
+    height: 100%;
+}
+
+/*CSS do carousel*/
+.carousel,
+.item,
+.active {
+    height: 80%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+
+
+.foto {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*css carousel*/
+
+
+@media (max-width: 600px) {
+    .form-control{
+        width: 100%;
+    }
+}
